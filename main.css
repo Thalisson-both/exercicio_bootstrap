@@ -1,0 +1,47 @@
+body {
+    background-image:url("./images/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 900px;
+    max-width: 100%;
+    margin-top: 20vh;
+    background-color: #ffffffa6;
+    padding: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+}
+.error-label {
+    display: none;
+}
+.error-input {
+    border-color: red;
+}
